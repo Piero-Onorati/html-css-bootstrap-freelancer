@@ -4,14 +4,40 @@
     border: 1px solid black;
 }
 
-header .jumbotron{
-    background-color: blue;
+/* HEADER */
+
+header{
+    background-color: #1abc9c
 }
+
+.navbar{ background-color: #2c3e50;
+}
+
 header .jumbotron img{
     width: 20%;
 }
+
 /* Section 1: PORTFOLIO */
 
 
-/* RESPONSIVE */
+/* Section 2: ABOUT */
+#about{
+    background-color: #1abc9c
+}
 
+/* FOOTER */
+
+footer{
+    background-color: #2c3e50;
+}
+
+.top-footer{
+    background-color: #3a546d;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
