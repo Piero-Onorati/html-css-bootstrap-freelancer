@@ -6,7 +6,12 @@
 
 header .jumbotron{
     background-color: blue;
-    height: 400px;
 }
-
+header .jumbotron img{
+    width: 20%;
+}
 /* Section 1: PORTFOLIO */
+
+
+/* RESPONSIVE */
+

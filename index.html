@@ -21,25 +21,45 @@
     <!-- start header -->
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand text-uppercase" href="#">start bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link active text-uppercase" aria-current="page" href="#portfolio">portfolio</a>
+                  <a class="nav-link text-uppercase" href="#about">about</a>
+                  <a class="nav-link text-uppercase" href="#contact">contact</a>
                 </div>
               </div>
             </div>
         </nav>
 
-        <div class="jumbotron"></div>
-        
+        <div class="container">
+            <div class="jumbotron text-center">
+                <img src="img/avatar.svg" alt="image profile">
+                <h1 class="text-uppercase">start bootstrap</h1>
+
+                <div class="separator">
+                    <i class="bi bi-dash-lg"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-dash-lg"></i>
+                </div>
+
+                <div>
+                    <h3 class="text-uppercase d-inline">graphic artist</h3>
+                    <i class="bi bi-dot"></i>
+                    <h3 class="text-uppercase d-inline">web designer</h3>
+                    <i class="bi bi-dot"></i>
+                    <h3 class="text-uppercase d-inline">illustrator</h3>
+                </div>
+            </div>
+            
+
+        </div>
+
 
     </header>
     <!-- end header -->
@@ -47,9 +67,24 @@
     <!-- start main -->
     <main>
 
+
         <!-- section 1: PORTFOLIO -->
         <section id="portfolio">
 
+            <!-- start section Title -->
+            <div class="section-title">
+                <h2 class="text-uppercase">portfolio</h2>
+    
+                <div class="separator">
+                    <i class="bi bi-dash-lg"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-dash-lg"></i>
+                </div>
+    
+            </div>
+            <!-- end section Title -->
+
+            <!-- start section content -->
             <div class="container">
 
                 <div class="row g-3">
@@ -78,23 +113,22 @@
                         <img src="img/submarine.png" class="img-fluid rounded-3" alt="submarine image">
                     </div>
 
-
                 </div>
 
-
             </div>
+            <!-- end section content -->
 
         </section>
         <!-- end section 1: PORTFOLIO -->
 
         <!-- section 2: ABOUT -->
-        <section>
+        <section id="about">
             
         </section>
         <!-- end section 2: ABOUT -->
 
         <!-- start section 3: CONTACT-FORM -->
-        <section>
+        <section id="contact">
 
         </section>
         <!-- end section 3: CONTACT-FORM -->
