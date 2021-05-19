@@ -28,6 +28,18 @@ header .jumbotron img{
 
 /* Section 1: PORTFOLIO */
 
+#portfolio .img-container .overlay{
+    width:96%;
+    height:100%;
+    background:rgba(26, 188, 156, 0.6);
+    opacity:0;
+    transition:opacity 500ms ease-in-out;
+}
+
+#portfolio .overlay i{
+    font-size: 50px;
+    color:#fff;
+}
 
 /* Section 2: ABOUT */
 
@@ -60,6 +72,10 @@ header .jumbotron img{
 
 .navbar .navbar-nav a.nav-link:hover{
     color: #1abc9c;
+}
+
+#portfolio .img-container:hover .overlay{
+    opacity:1;
 }
 
 #about .btn:hover{
