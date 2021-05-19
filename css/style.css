@@ -1,4 +1,4 @@
-/* COMMONS */
+/* --------------------COMMONS------------------ */
 
 /* class for the background-color green(#1abc9c) and color text white */
 .green_white{
@@ -12,7 +12,15 @@
     color: white;;
 }
 
-/* HEADER */
+.separator i{
+    font-size: 22px;
+}
+
+/* ---------------------HEADER---------------------- */
+
+.navbar-brand{
+    font-weight: bold;
+}
 
 .navbar .navbar-nav a.nav-link{
     color: white;
@@ -26,7 +34,7 @@ header .jumbotron img{
     width: 36%;
 }
 
-/* Section 1: PORTFOLIO */
+/* ---------------Section 1: PORTFOLIO---------------- */
 
 #portfolio .img-container .overlay{
     width:96%;
@@ -41,17 +49,13 @@ header .jumbotron img{
     color:#fff;
 }
 
-/* Section 2: ABOUT */
-
-
-/* Section 3: CONTACT */
+/* ----------------Section 3: CONTACT------------------ */
 
 #contact input, #contact textarea{
     width: 100%;
 }
 
-
-/* FOOTER */
+/* -------------------FOOTER ---------------------------*/
 
 .top-footer{
     background-color: #3a546d;
@@ -68,7 +72,7 @@ header .jumbotron img{
     color: #1abc9c;
 }
 
-/* HOVER */
+/* ----------------------HOVER--------------------------- */
 
 .navbar .navbar-nav a.nav-link:hover{
     color: #1abc9c;
@@ -92,7 +96,19 @@ header .jumbotron img{
     border:2px solid #1abc9c ;
 }
 
-/* RESPONSIVE */
+/*---------------------- RESPONSIVE-------------------- */
+
+@media screen and (max-width:400px) {
+    header .qualifications h5, header .qualifications i{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:474px) {
+    header .qualifications h5, header .qualifications i{
+        font-size: 15px;
+    }
+}
 
 @media screen and (min-width:768px) {
     header .jumbotron img{
@@ -105,4 +121,3 @@ header .jumbotron img{
         width: 22%;
     }
 }
-
