@@ -37,7 +37,7 @@ header .jumbotron img{
 /* ---------------Section 1: PORTFOLIO---------------- */
 
 #portfolio .img-container .overlay{
-    width:96%;
+    width:96.5%;
     height:100%;
     background:rgba(26, 188, 156, 0.6);
     opacity:0;
