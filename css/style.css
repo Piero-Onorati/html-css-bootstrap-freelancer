@@ -46,11 +46,14 @@ header .jumbotron img{
     color:white;
 }
 
-.icon{
+.top-footer .icon{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 2px solid white;
+}
+.text-colored{
+    color: #1abc9c;
 }
 
 /* HOVER */
@@ -59,9 +62,18 @@ header .jumbotron img{
     color: #1abc9c;
 }
 
+#about .btn:hover{
+    color: rgba(12, 94, 78, 0.8);
+}
+
 #contact .btn:hover{
-    background-color: #0c5e4e;
+    background-color: rgba(12, 94, 78, 0.8);
     color: white;
+}
+
+.top-footer .icon:hover{
+    color: #1abc9c;
+    border:2px solid #1abc9c ;
 }
 
 /* RESPONSIVE */
