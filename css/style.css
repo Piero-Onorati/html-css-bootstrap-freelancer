@@ -37,7 +37,7 @@ header .jumbotron img{
 /* ---------------Section 1: PORTFOLIO---------------- */
 
 #portfolio .img-container .overlay{
-    width:96.5%;
+    width: calc(100% - 1rem);
     height:100%;
     background:rgba(26, 188, 156, 0.6);
     opacity:0;
@@ -93,7 +93,7 @@ header .jumbotron img{
 
 .top-footer .icon:hover{
     color: #1abc9c;
-    border:2px solid #1abc9c ;
+    border:2px solid #1abc9c;
 }
 
 /*---------------------- RESPONSIVE-------------------- */
