@@ -37,7 +37,7 @@ header .jumbotron img{
 /* ---------------Section 1: PORTFOLIO---------------- */
 
 #portfolio .img-container .overlay{
-    width: calc(100% - 1rem);
+    width: 100%;
     height:100%;
     background:rgba(26, 188, 156, 0.6);
     opacity:0;
@@ -52,7 +52,17 @@ header .jumbotron img{
 /* ----------------Section 3: CONTACT------------------ */
 
 #contact input, #contact textarea{
+    border-top: 0 transparent;
+    border-left: 0 transparent;
+    border-right: 0 transparent;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
     width: 100%;
+}
+
+#contact input::placeholder, #contact textarea::placeholder{
+    color:#2c3e50;
 }
 
 /* -------------------FOOTER ---------------------------*/
@@ -84,6 +94,12 @@ header .jumbotron img{
 
 #about .btn:hover{
     color: rgba(12, 94, 78, 0.8);
+}
+
+#contact input:hover, #contact textarea:hover, 
+#contact input:active, #contact textarea:active,
+#contact input:focus, #contact textarea:focus{
+    border-bottom:2px solid #1abc9c ;
 }
 
 #contact .btn:hover{
